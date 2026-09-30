@@ -28,5 +28,6 @@ Each topic gets its own folder, with a README describing how to run it.
 Commands in those READMEs are run from the repository root.
 
 - [getting-started](getting-started/) — the bank spec from the official getting started guide
+- [outbox](outbox/) — a transactional outbox with fast-path publish and a polling relay
 
 `_apalache-out/` holds the output of `quint verify` and is gitignored.
